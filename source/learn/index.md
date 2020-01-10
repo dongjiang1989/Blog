@@ -1,8 +1,13 @@
 <!-- more -->
 
 ---
-front-matter
-    layout: page
+
+title: k8s
+
+layout: page
+
 ---
+
+<!-- more -->
 
 # Test

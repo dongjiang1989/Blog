@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Share Blog
+title: YiShao's Blog
 subtitle: ''
 description: ''
-keywords: Knative, K8S,
-author: dongjiang
-language: en
+keywords: Knative, Kubernetes, Service Mesh, CNI, OpenStack
+author: dongjiang1899
+language: zh-Hans
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
