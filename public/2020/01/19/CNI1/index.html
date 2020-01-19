@@ -83,14 +83,14 @@
 
 
 
-<meta name="description" content="Container Network Interface - networking for Linux containers">
+<meta name="description" content="目前K8s中使用比较多的CNI Plugin插件；简单介绍；">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CNI (一)">
-<meta property="og:url" content="https://dongjiang1989.github.io/2020/01/15/CNI/index.html">
+<meta property="og:title" content="CNI (二)">
+<meta property="og:url" content="https://dongjiang1989.github.io/2020/01/19/CNI1/index.html">
 <meta property="og:site_name" content="YiShao&#39;s Blog">
-<meta property="og:description" content="Container Network Interface - networking for Linux containers">
-<meta property="article:published_time" content="2020-01-15T02:45:57.000Z">
-<meta property="article:modified_time" content="2020-01-19T06:53:54.726Z">
+<meta property="og:description" content="目前K8s中使用比较多的CNI Plugin插件；简单介绍；">
+<meta property="article:published_time" content="2020-01-19T06:59:21.000Z">
+<meta property="article:modified_time" content="2020-01-19T07:01:38.723Z">
 <meta property="article:author" content="dongjiang1899">
 <meta property="article:tag" content="K8S, Container Network Interface">
 <meta name="twitter:card" content="summary">
@@ -123,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="https://dongjiang1989.github.io/2020/01/15/CNI/"/>
+  <link rel="canonical" href="https://dongjiang1989.github.io/2020/01/19/CNI1/"/>
 
 
 
 
 
-  <title>CNI (一) | YiShao's Blog</title>
+  <title>CNI (二) | YiShao's Blog</title>
   
 
 
@@ -296,7 +296,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://dongjiang1989.github.io/2020/01/15/CNI/">
+    <link itemprop="mainEntityOfPage" href="https://dongjiang1989.github.io/2020/01/19/CNI1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="dongjiang1899">
@@ -313,7 +313,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CNI (一)</h1>
+          <h1 class="post-title" itemprop="name headline">CNI (二)</h1>
         
 
         <div class="post-meta">
@@ -325,8 +325,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-15T10:45:57+08:00">
-                2020-01-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-19T14:59:21+08:00">
+                2020-01-19
               </time>
             
 
@@ -381,7 +381,7 @@
 
           
               <div class="post-description">
-                  Container Network Interface - networking for Linux containers
+                  目前K8s中使用比较多的CNI Plugin插件；简单介绍；
               </div>
           
 
@@ -398,7 +398,7 @@
       
 
       
-        <h1 id="CNI（第一篇）"><a href="#CNI（第一篇）" class="headerlink" title="CNI（第一篇）"></a>CNI（第一篇）</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>CNI（容器网络接口）是一个规范和库，用于编写用于在Linux容器中配置网络接口的插件以及许多受支持的插件组成。</p>
+        <h1 id="CNI（第二篇）"><a href="#CNI（第二篇）" class="headerlink" title="CNI（第二篇）"></a>CNI（第二篇）</h1><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>CNI（容器网络接口）是一个规范和库，用于编写用于在Linux容器中配置网络接口的插件以及许多受支持的插件组成。</p>
 <p>CNI包括几部分： </p>
 <blockquote>
 <p>golang SDK Lib, 用于集成实现网络通信接口；</p>
@@ -475,15 +475,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2020/01/15/CNI/" rel="next" title="CNI (一)">
+                <i class="fa fa-chevron-left"></i> CNI (一)
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2020/01/19/CNI1/" rel="prev" title="CNI (二)">
-                CNI (二) <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -613,7 +613,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CNI（第一篇）"><span class="nav-number">1.</span> <span class="nav-text">CNI（第一篇）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#介绍"><span class="nav-number">1.1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用方式"><span class="nav-number">1.2.</span> <span class="nav-text">使用方式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#cnitool-介绍"><span class="nav-number">1.2.1.</span> <span class="nav-text">cnitool 介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#插件使用"><span class="nav-number">1.2.2.</span> <span class="nav-text">插件使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cnitool调用插件"><span class="nav-number">1.2.3.</span> <span class="nav-text">cnitool调用插件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Golang-libcni-SDK"><span class="nav-number">1.3.</span> <span class="nav-text">Golang libcni SDK</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#核心接口分析"><span class="nav-number">1.3.1.</span> <span class="nav-text">核心接口分析</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#CNI（第二篇）"><span class="nav-number">1.</span> <span class="nav-text">CNI（第二篇）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#介绍"><span class="nav-number">1.1.</span> <span class="nav-text">介绍</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用方式"><span class="nav-number">1.2.</span> <span class="nav-text">使用方式</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#cnitool-介绍"><span class="nav-number">1.2.1.</span> <span class="nav-text">cnitool 介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#插件使用"><span class="nav-number">1.2.2.</span> <span class="nav-text">插件使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#cnitool调用插件"><span class="nav-number">1.2.3.</span> <span class="nav-text">cnitool调用插件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Golang-libcni-SDK"><span class="nav-number">1.3.</span> <span class="nav-text">Golang libcni SDK</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#核心接口分析"><span class="nav-number">1.3.1.</span> <span class="nav-text">核心接口分析</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
