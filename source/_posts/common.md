@@ -1,6 +1,6 @@
 ---
 title: Blog背景介绍
-date: 2020-01-17 10:00:18
+date: 2020-01-14 10:00:18
 tags: 
 description: 背景介绍； 分享最近几年的工作经验和心得；
 ---
@@ -26,7 +26,7 @@ description: 背景介绍； 分享最近几年的工作经验和心得；
 
 2015.9 - 2017.8 在滴滴，主要是从事工具平台： 主要包括：调查问卷系统、Crash&ANR系统、网络数据收集监控、IOS sdk等等
 
-2017.8 - 2020.1 在华为云，主要从事云服务的研发（CDN、RTC、媒体云服务），基础PaaS服务、Service mesh（istio、envoy、sofamosn）、KNative等，已经CNCF组件； 参与开源社区；
+2017.8 - 2020.1 在华为云，主要从事云服务的研发（CDN、RTC、媒体云服务），基础PaaS服务、Service mesh（istio、envoy、sofamosn等）、KNative等，已经CNCF组件； 参与开源社区；
 
 ## 关于我
 
