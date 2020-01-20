@@ -1,15 +1,15 @@
 ---
-title: CNI (二)
-date: 2020-01-19 14:59:21
+title: CNI (一)
+date: 2020-01-15 10:45:57
 tags: K8S, Container Network Interface
-description: 目前K8s中使用比较多的CNI Plugin插件；简单介绍；
+description: Container Network Interface - networking for Linux containers
 ---
 
-# CNI（第二篇）
+# CNI（第一篇）
 
 ## 介绍
 
-CNI（容器网络接口）是一个规范SPEC。 如何配置调用： 请查看[CNI SPEC](https://github.com/containernetworking/cni/blob/master/SPEC.md)
+CNI（容器网络接口）是一个规范和库，用于编写用于在Linux容器中配置网络接口的插件以及许多受支持的插件组成。
 
 CNI包括几部分： 
 
